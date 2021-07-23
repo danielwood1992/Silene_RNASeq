@@ -1,1 +1,2 @@
-REAME File for the RNA Seq Folder.
+R script for DESeq2 analysis of RNA-seq reads; mapped to de novo transcriptome assembly using kallisto. 
+Produces results/figures for shortly to be bioarxived paper (DW: add link when you get it)
