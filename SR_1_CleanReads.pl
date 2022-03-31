@@ -1,6 +1,7 @@
 #!/usr/bin/perl
-#Not actually used, but should probably work...
-
+#
+#Note: settings for trimming etc. are in sub_SR_1_CleanReads.sh
+#
 my $samples_file = "/home/b.bssc1d/scripts/formal_RNAseq_scripts/raw_reads_list.txt";
 my $output_dir = "scratch/b.bssc1d/Silene_RNA_seq/1_CleanedReads/";
 my $script = "/home/b.bssc1d/scripts/formal_RNAseq_scripts/sub_SR_1_CleanReads.sh";
@@ -24,4 +25,3 @@ while(!eof(IN)){
 }
 #Uncomment this when you're ready to rumble. 
 #`sbatch ~/scripts/24h_submission SR_1_commands.txt`;
-
