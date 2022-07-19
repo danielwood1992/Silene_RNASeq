@@ -1,5 +1,5 @@
 # Silene_RNASeq
-Scripts for 2021 RNA Seq Paper (Silene)
+Scripts for 2022 RNA Seq Paper (Silene)
 
 1. Cleaning reads: SR_1_CleanReads.pl, sub_SR_1_CleanReads.sh
 2. Transcriptome asssembly: SR_2_TrinityAssembly.sh
